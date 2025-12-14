@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+
+.navbar {
+    background: #fff;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ea4918;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+}
+
+.nav-links a:hover {
+    color: #ea4918;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.login-btn {
+    padding: 8px 18px;
+    border: 2px solid #ea4918;
+    background: transparent;
+    color: #ea4918;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.signup-btn {
+    padding: 8px 18px;
+    border: none;
+    background: #ea4918;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.hero {
+    max-width: 1200px;
+    margin: auto;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-left {
+    width: 50%;
+}
+
+.hero-left h1 {
+    font-size: 46px;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+.hero-left p {
+    font-size: 15px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.order-btn {
+    padding: 12px 30px;
+    background: #ea4918;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.search-box {
+    display: flex;
+    gap: 15px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    width: fit-content;
+}
+
+.search-box input,
+.search-box select {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 14px;
+    outline: none;
+}
+
+.search-box input {
+    width: 200px;
+}
+
+.search-box select {
+    width: 160px;
+    cursor: pointer;
+}
+
+.search-btn {
+    padding: 12px 28px;
+    background: #ea4918;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.hero-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-right img {
+    width: 420px;
+    border-radius: 20px;
+}
